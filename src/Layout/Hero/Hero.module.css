@@ -1,0 +1,88 @@
+.Hero {
+    padding-left: 6.25rem;
+    padding-top: 3.5rem;
+    background-color: var(--color-green);
+}
+
+.HeroTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 4.5rem;
+}
+
+.HeroLogo {
+    display: flex;
+    gap: 0.7rem;
+}
+
+.HeroLogo h1 {
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.7rem;
+    line-height: 2.17rem;
+    display: flex;
+    align-items: center;
+    color: var(--color-darkBlue);
+}
+
+.HeroNav {
+    list-style: none;
+    display: flex;
+    gap: 2.5rem;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    display: flex;
+    align-items: center;
+    color: var(--color-darkBlue);
+    cursor: pointer;
+}
+
+.HeroLeft {
+    margin-right: 6.25rem;
+}
+
+
+.BlogText {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-darkBlue);
+    padding-bottom: 0.75rem;
+}
+
+
+.BlogTextBold {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-darkBlue);
+    padding-bottom: 4.2rem;
+}
+
+.BlogHero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6.25rem;
+    
+}
+
+.blogimage{
+    width: 45vw;
+    /* height: 30vh; */
+}

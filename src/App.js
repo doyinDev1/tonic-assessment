@@ -4,6 +4,7 @@ import Footer from "./Layout/Footer/Footer";
 import Story from "./Layout/Story/Story";
 import Team from "./Layout/Team/Team";
 import BlogDetails from "./Layout/BlogDetails/BlogDetails";
+import Suscribe from "./Layout/Suscribe/Suscribe";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Story />
       <Team/>
       <BlogDetails/>
+      <Suscribe/>
     </div>
   );
 }

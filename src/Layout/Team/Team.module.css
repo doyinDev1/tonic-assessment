@@ -1,3 +1,23 @@
+.TeamMain p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: var(--color-grey);
+}
+
+.TeamMain h1 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    color: var(--color-black);
+    display: flex;
+    align-items: center;
+}
+
 .Team {
     display: grid;
     grid-template-columns: repeat(9, 1fr);
@@ -7,21 +27,13 @@
     grid-column-start: 3;
     grid-column-end: 8;
 }
-.TeamMain{
-/* padding-bottom: 4.8rem; */
+
+.TeamMain {
+    padding-bottom: 4.8rem;
 
 }
-.TeamMain p{
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-    color: var(--color-grey);
 
-}
 .TeamTop p {
-
     padding-top: 7.9rem;
     padding-bottom: 0.75rem;
     display: flex;
@@ -29,14 +41,9 @@
 }
 
 .TeamTop h1 {
-    font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 400;
+
     font-size: 48px;
     line-height: 72px;
-    display: flex;
-    align-items: center;
-    color: var(--color-black);
     padding-bottom: 1.4rem;
 }
 
@@ -77,19 +84,9 @@
 }
 
 .TeamMembers h1 {
-    font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 48px;
-    /* identical to box height, or 171% */
     padding-top: 1.5rem;
-    display: flex;
-    align-items: center;
 
-    color: #000000;
 }
-
 
 .TeamMemberOther {
     display: grid;
@@ -114,16 +111,5 @@
 }
 
 .TeamMemberBottomRight h1 {
-    font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 48px;
-    display: flex;
-    align-items: center;
-    color: var(--color-black);
     padding-bottom: 0.75rem;
-}
-
-.TeamMemberOtherContent:nth-child(2){
 }

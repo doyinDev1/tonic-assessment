@@ -73,7 +73,7 @@ const Team = () => {
                     </div>
                 </div>
                 <div className={classes.TeamMemberOtherContent}>
-                <div className={classes.TeamMemberBottom}>
+                    <div className={classes.TeamMemberBottom}>
                         <div className={classes.TeamMemberBottomLeft}>
                             <img
                                 src={pam}
@@ -103,7 +103,7 @@ const Team = () => {
                     </div>
                 </div>
                 <div className={classes.TeamMemberOtherContent}>
-                <div className={classes.TeamMemberBottom}>
+                    <div className={classes.TeamMemberBottom}>
                         <div className={classes.TeamMemberBottomLeft}>
                             <img
                                 src={pam}

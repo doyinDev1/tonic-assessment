@@ -1,0 +1,82 @@
+.footer {
+    margin-top: 6.25rem;
+    margin-left: 6.25rem;
+}
+
+.footerMain {
+    display: flex;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+}
+
+.footerLogo {
+    display: flex;
+    align-items: center;
+    gap: 0.67rem;
+    padding-bottom: 2.5rem;
+}
+
+.footerLogo h1 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.7rem;
+    color: var(--color-darkBlue);
+
+}
+.footerContentRight{
+    display: flex;
+}
+.footerContentRightText{
+    margin-right: 6rem;
+}
+/* .footerContent:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerContent:nth-child(2) {
+    margin-left: 11rem;
+} */
+/* .footerContent:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+}
+.footerContent:nth-child(4) {
+    display: flex;
+    flex-direction: column;
+} */
+.footerDescription {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75rem;
+    color: var(--color-grey);
+    width: 18.75rem;
+    padding-bottom: 4rem;
+}
+
+.footerHeading {
+    font-family: 'Open Sans';
+    font-size: 1.25rem;
+    line-height: 2rem;
+    display: flex;
+    align-items: center;
+    color: var(--color-black);
+    padding-bottom: 2rem;
+}
+
+.footerLinks {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    /* or 160% */
+
+    display: flex;
+    align-items: center;
+
+    padding: 1rem 0;
+    color: #777777;
+}

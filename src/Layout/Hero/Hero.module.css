@@ -2,6 +2,7 @@
     padding-left: 6.25rem;
     padding-top: 3.5rem;
     background-color: var(--color-green);
+    margin-bottom: 5.87rem;
 }
 
 .HeroTop {
@@ -47,42 +48,102 @@
     margin-right: 6.25rem;
 }
 
+.AboutText {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    display: flex;
+    align-items: center;
+    color: var(--color-darkBlue);
+    padding-bottom: 0.75rem;
+}
 
-.BlogText {
+.AboutHeroTop {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 5.84rem;
+}
+
+.AboutAbout {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    display: flex;
+    align-items: center;
+    color: var(--color-black);
+}
+
+.AboutParagraph {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    width: 455px;
+    height: 64px;
+    color: var(--color-darkBlue)
+}
+
+.AboutNumbers {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     color: var(--color-darkBlue);
-    padding-bottom: 0.75rem;
+
 }
 
+.AboutNumbersText {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
-.BlogTextBold {
+.AboutNumbersText h1 {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 400;
-    font-size: 64px;
-    line-height: 84px;
+    font-size: 3rem;
+    line-height: 4.5rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: var(--color-darkBlue);
+    padding-bottom: 5.1rem;
+}
+
+.AboutFeatures {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 7.5rem;
+}
+
+.AboutFeaturesText h1 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6rem;
+    line-height: 3.5rem;
     display: flex;
     align-items: center;
-    justify-content: center;
-    color: var(--color-darkBlue);
-    padding-bottom: 4.2rem;
+    color: #0A2640;
+    padding-bottom: 2rem;
 }
 
-.BlogHero{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 6.25rem;
-    
-}
-
-.blogimage{
-    width: 45vw;
-    /* height: 30vh; */
+.AboutFeaturesText p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #0A2640;
 }

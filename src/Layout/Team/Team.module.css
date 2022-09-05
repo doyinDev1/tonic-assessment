@@ -74,12 +74,12 @@
 }
 
 .TeamMembers:nth-child(2) {
-    grid-column-start: 13;
+    grid-column-start: 12;
     grid-column-end: 17;
 }
 
 .TeamMembers:nth-child(3) {
-    grid-column-start: 19;
+    grid-column-start: 18;
     grid-column-end: 23;
 }
 

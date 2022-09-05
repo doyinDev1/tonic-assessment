@@ -3,23 +3,35 @@
     padding-bottom: 2.5rem;
 }
 
+.BlogDetail p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: var(--color-white);
+}
+
+.BlogDetail h1 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    color: var(--color-white);
+    line-height: 72px;
+    align-items: center;
+}
+
 .BlogTop {
     display: grid;
     grid-template-columns: repeat(9, 1fr);
-
 }
 
 .BlogTop p {
     grid-column-start: 5;
     grid-column-end: 5;
     padding-top: 7.3rem;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
     align-items: center;
-    color: var(--color-white);
     text-align: center;
     padding-bottom: 0.75rem;
 }
@@ -27,16 +39,9 @@
 .BlogTop h1 {
     grid-column-start: 3;
     grid-column-end: 8;
-    font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 72px;
     display: flex;
-    align-items: center;
     text-align: center;
     padding-bottom: 3.8rem;
-    color: var(--color-white);
 }
 
 .BlogTop hr {
@@ -55,29 +60,16 @@
 
 .BlogPointsTop h1 {
     grid-column-start: 2;
-    grid-column-end: 4;
-    font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 72px;
-    /* display: flex; */
-    align-items: center;
-    color: var(--color-white);
+    grid-column-end: 5;
 }
 
 .BlogPointsTop span {
-    margin-left: 0.8rem;
+    margin-left: 0.1rem;
     color: var(--color-green);
 }
 
 .BlogPointsTop p {
     grid-column-start: 6;
     grid-column-end: 8;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-    color: var(--color-white);
+
 }

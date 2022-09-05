@@ -1,6 +1,5 @@
 import React from 'react'
 import classes from './Suscribe.module.css'
-import ellipse from '../../assets/images/suscribeellipse.png'
 import CustomButton from '../../components/Buttons/CustomButton'
 const Suscribe = () => {
     return (
@@ -9,15 +8,13 @@ const Suscribe = () => {
                 <div className={classes.SuscribeCard}>
                     <div className={classes.SuscribeOverlay}>
                         <h1>An enterprise template to ramp up your company website</h1>
-
-
                     </div>
-                    <div  className={classes.SuscribeOverlayBottom}>
-                        <input type='text' placeholder="Your email Address"/>
-                       <CustomButton title='Start Now' 
-                       customButtonStyling={customButtonStyling}
-                       titleStyles={titleStyles}
-                       />
+                    <div className={classes.SuscribeOverlayBottom}>
+                        <input type='text' placeholder="Your email Address" />
+                        <CustomButton title='Start Now'
+                            customButtonStyling={customButtonStyling}
+                            titleStyles={titleStyles}
+                        />
                     </div>
                 </div>
             </div>

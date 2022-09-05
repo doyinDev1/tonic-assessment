@@ -1,15 +1,27 @@
 .Hero {
-    padding-left: 6.25rem;
+    /* padding-left: 6.25rem; */
     padding-top: 3.5rem;
     background-color: var(--color-green);
     margin-bottom: 5.87rem;
 }
 
+
 .HeroTop {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
     align-items: center;
     justify-content: space-between;
     padding-bottom: 4.5rem;
+}
+
+.HeroTopChild:nth-child(1) {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.HeroTopChild:nth-child(2) {
+    grid-column-start: 10;
+    grid-column-end: 14;
 }
 
 .HeroLogo {
@@ -18,7 +30,6 @@
 }
 
 .HeroLogo h1 {
-
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 700;
@@ -30,22 +41,43 @@
 }
 
 .HeroNav {
-    list-style: none;
-    display: flex;
-    gap: 2.5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
     font-size: 1rem;
     line-height: 1.75rem;
-    display: flex;
+    /* display: flex; */
+    /* gap: 1rem; */
     align-items: center;
     color: var(--color-darkBlue);
     cursor: pointer;
 }
 
-.HeroLeft {
-    margin-right: 6.25rem;
+.HeroNavChild:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.HeroNavChild:nth-child(2) {
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.HeroNavChild:nth-child(3) {
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.HeroNavChild:nth-child(4) {
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.About {
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
 }
 
 .AboutText {
@@ -54,17 +86,29 @@
     font-weight: 400;
     font-size: 1.25rem;
     line-height: 2rem;
-    display: flex;
+    /* display: flex; */
     align-items: center;
     color: var(--color-darkBlue);
     padding-bottom: 0.75rem;
+    grid-column-start: 2;
+    grid-column-end: 6;
 }
 
 .AboutHeroTop {
 
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(14, 1fr);
     padding-bottom: 5.84rem;
+}
+
+.AboutHeroTopChild:nth-child(1) {
+    grid-column-start: 2;
+    grid-column-end: 8;
+}
+
+.AboutHeroTopChild:nth-child(2) {
+    grid-column-start: 9;
+    grid-column-end: 14;
 }
 
 .AboutAbout {
@@ -84,8 +128,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
-    width: 455px;
-    height: 64px;
+
     color: var(--color-darkBlue)
 }
 
@@ -99,12 +142,28 @@
     justify-content: center;
     align-items: center;
     color: var(--color-darkBlue);
+    padding-bottom: 0.75rem;
 
 }
 
 .AboutNumbersText {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(9, 1fr);
+}
+
+.AboutNumbersTextChild:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.AboutNumbersTextChild:nth-child(2) {
+    grid-column-start: 3;
+    grid-column-end: 8;
+}
+
+.AboutNumbersTextChild:nth-child(3) {
+    grid-column-start: 9;
+    grid-column-end: 12;
 }
 
 .AboutNumbersText h1 {
@@ -121,10 +180,25 @@
 }
 
 .AboutFeatures {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
     padding-bottom: 7.5rem;
+}
+
+.AboutFeaturesText:nth-child(1) {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.AboutFeaturesText:nth-child(2) {
+    grid-column-start: 6;
+    grid-column-end: 8;
+
+}
+
+.AboutFeaturesText:nth-child(3) {
+    grid-column-start: 9;
+    grid-column-end: 12;
 }
 
 .AboutFeaturesText h1 {
@@ -146,4 +220,52 @@
     font-size: 24px;
     line-height: 36px;
     color: #0A2640;
+}
+
+.HeroNav>li>button {
+    display: 'flex';
+    align-items: flex-start;
+    padding: 8px 40px;
+    border: 2px solid var(--color-darkBlue);
+    border-radius: 24px;
+    background-color: var(--color-green);
+    cursor: pointer;
+}
+
+.HeroNav>li>button>span {
+    color: var(--color-darkBlue);
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+@media screen and (max-width: 1860px) {
+    .HeroNavChild:nth-child(4) button {
+
+        padding: 8px 30px;
+    }
+
+}
+
+@media screen and (max-width: 1590px) {
+    .HeroNavChild:nth-child(4) button {
+
+        padding: 8px 25px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .HeroNavChild:nth-child(4) button {
+
+        padding: 8px 20px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .HeroNavChild:nth-child(4) button {
+
+        padding: 8px 17px;
+    }
 }

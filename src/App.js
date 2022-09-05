@@ -1,5 +1,4 @@
 import Hero from "./Layout/Hero/Hero";
-import NavBar from "./components/NavBar/NavBar";
 import Footer from "./Layout/Footer/Footer";
 import Story from "./Layout/Story/Story";
 import Team from "./Layout/Team/Team";
@@ -14,6 +13,7 @@ function App() {
       <Team/>
       <BlogDetails/>
       <Suscribe/>
+      <Footer/>
     </div>
   );
 }

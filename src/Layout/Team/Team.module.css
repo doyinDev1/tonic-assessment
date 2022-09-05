@@ -1,0 +1,115 @@
+.TeamMain p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: var(--color-grey);
+}
+
+.TeamMain h1 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    color: var(--color-black);
+    display: flex;
+    align-items: center;
+}
+
+.Team {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+}
+
+.TeamTop {
+    grid-column-start: 3;
+    grid-column-end: 8;
+}
+
+.TeamMain {
+    padding-bottom: 4.8rem;
+
+}
+
+.TeamTop p {
+    padding-top: 7.9rem;
+    padding-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+}
+
+.TeamTop h1 {
+
+    font-size: 48px;
+    line-height: 72px;
+    padding-bottom: 1.4rem;
+}
+
+.TeamTop h2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: var(--color-grey);
+    padding-bottom: 3.5rem;
+}
+
+.TeamMembers {
+    display: grid;
+    grid-template-columns: repeat(27, 1fr);
+}
+
+.TeamProfile {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 6.8rem;
+}
+
+.TeamMembers:nth-child(1) {
+    grid-column-start: 6;
+    grid-column-end: 10;
+}
+
+.TeamMembers:nth-child(2) {
+    grid-column-start: 12;
+    grid-column-end: 17;
+}
+
+.TeamMembers:nth-child(3) {
+    grid-column-start: 18;
+    grid-column-end: 23;
+}
+
+.TeamMembers h1 {
+    padding-top: 1.5rem;
+
+}
+
+.TeamMemberOther {
+    display: grid;
+    grid-template-columns: repeat(27, 1fr);
+}
+
+.TeamMemberOtherContent:nth-child(1) {
+    grid-column-start: 6;
+    grid-column-end: 15;
+}
+
+.TeamMemberOtherContent:nth-child(2) {
+    grid-column-start: 16;
+    grid-column-end: 26;
+}
+
+.TeamMemberBottom {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    padding-bottom: 2.87rem;
+}
+
+.TeamMemberBottomRight h1 {
+    padding-bottom: 0.75rem;
+}

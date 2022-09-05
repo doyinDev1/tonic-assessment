@@ -1,0 +1,71 @@
+.Suscribe {
+    padding-top: 7.75rem;
+    padding-bottom: 5.25rem;
+}
+
+.SuscribeBody {
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+}
+
+.SuscribeCard {
+    grid-column-start: 2;
+    grid-column-end: 14;
+    background-color: var(--color-darkBlue);
+    border-radius: 12px;
+    background-image: url(../../assets/images/suscribeellipse2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.SuscribeOverlay {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.SuscribeOverlay h1 {
+    padding-top: 4.5rem;
+    grid-column-start: 4;
+    grid-column-end: 10;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: var(--color-white);
+    padding-bottom: 3.12rem;
+}
+
+.SuscribeOverlayBottom {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1.4rem;
+    padding-bottom: 4.6rem;
+
+}
+
+.SuscribeOverlayBottom input {
+    grid-column-start: 5;
+    grid-column-end: 8;
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 240px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: var(--color-green);
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.SuscribeOverlayBottom input::placeholder {
+    color: var(--color-black);
+}

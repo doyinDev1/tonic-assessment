@@ -1,0 +1,46 @@
+.Story {
+    background-color: var(--color-darkBlue);
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+
+}
+
+.StoryText {
+    grid-column-start: 3;
+    grid-column-end: 8;
+}
+
+.StoryText p {
+    padding-top: 7.3rem;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 0.75rem;
+    color: var(--color-white);
+}
+
+.StoryText h1 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    display: flex;
+    align-items: center;
+    color: var(--color-white);
+    padding-bottom: 1.85rem;
+}
+
+.StoryText h2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: var(--color-white);
+    padding-bottom: 7.5rem;
+}

@@ -509,6 +509,15 @@
         align-items: flex-start;
         margin-left: -32px;
     }
+
+    .Hero {
+        padding-top: 1.5rem;
+
+    }
+
+    .HeroLogo h1 {
+        font-size: 1.9rem;
+    }
 }
 
 @media screen and (max-width: 414px) {
@@ -536,19 +545,27 @@
         font-size: 10px;
 
     }
-
+    .AboutHeroTopChild:nth-child(1){
+        grid-column-start: 2;
+        grid-column-end: 9;
+    }
+    .AboutHeroTopChild:nth-child(2){
+        grid-column-start: 9;
+        grid-column-end: 14
+    }
+    
 
     .AboutFeatures {
         padding-bottom: 5.5rem;
     }
 
     .AboutAbout {
-        font-size: 16px;
-        line-height: 28px;
+        font-size: 18px;
+        line-height: 30px;
     }
 
     .AboutParagraph {
-        font-size: 6px;
+        font-size: 8px;
         line-height: 12px;
     }
 

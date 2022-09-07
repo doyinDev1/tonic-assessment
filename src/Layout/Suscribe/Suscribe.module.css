@@ -17,7 +17,6 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 
 .SuscribeOverlay {
@@ -50,22 +49,149 @@
 }
 
 .SuscribeOverlayBottom input {
-    grid-column-start: 5;
+    grid-column-start: 4;
     grid-column-end: 8;
     background: #FFFFFF;
     border: 2px solid #FFFFFF;
-    border-radius: 240px;
+    border-radius: 50px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 32px;
     color: var(--color-green);
     display: flex;
     align-items: center;
     text-align: center;
 }
 
+.SuscribeOverlayBottom button {
+    display: flex;
+    align-items: flex-start;
+    padding: 16px 56px;
+    border: 2px solid var(--color-darkBlue);
+    border-radius: 56px;
+    background-color: var(--color-green);
+    cursor: pointer;
+    width: max-content;
+}
+
+.SuscribeOverlayBottom span {
+    color: var(--color-darkBlue);
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+}
+
 .SuscribeOverlayBottom input::placeholder {
     color: var(--color-black);
+}
+
+
+@media screen and (max-width: 1440px) {
+    .SuscribeOverlay h1 {
+        grid-column-start: 3;
+        grid-column-end: 11;
+    }
+
+    .SuscribeOverlayBottom input {
+        grid-column-start: 4;
+        grid-column-end: 8;
+    }
+
+    .SuscribeOverlayBottom button {
+        grid-column-start: 8;
+        grid-column-end: 9;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .SuscribeOverlay h1 {
+
+        font-size: 40px;
+        line-height: 52px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .SuscribeOverlayBottom input {
+        grid-column-start: 4;
+        grid-column-end: 9;
+    }
+
+    .SuscribeOverlayBottom button {
+        grid-column-start: 9;
+        grid-column-end: 10;
+    }
+
+    .SuscribeOverlay h1 {
+        grid-column-start: 2;
+        grid-column-end: 12;
+        font-size: 36px;
+        line-height: 46px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .SuscribeOverlayBottom input {
+        grid-column-start: 3;
+        grid-column-end: 10;
+        padding: 0px 5px;
+        font-size: 18px;
+    }
+
+    .SuscribeOverlayBottom button {
+        grid-column-start: 10;
+        grid-column-end: 11;
+        padding: 16px 45px;
+
+    }
+
+    .SuscribeOverlayBottom span {
+        font-size: 16px;
+        line-height: 18px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .SuscribeOverlayBottom {
+        gap: 0.4rem;
+    }
+
+    .SuscribeOverlayBottom button {
+        grid-column-start: 11;
+        grid-column-end: 12;
+    }
+
+    .SuscribeOverlayBottom input {
+        grid-column-start: 3;
+        grid-column-end: 11;
+    }
+}
+
+
+@media screen and (max-width: 414px) {
+    .SuscribeOverlay h1 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .SuscribeOverlayBottom button {
+        padding: 10px 14px;
+    }
+
+    .SuscribeOverlayBottom span {
+        font-size: 11px;
+        line-height: 8px;
+    }
+
+    .SuscribeOverlayBottom input {
+        font-size: 12px;
+    }
+
+    .Suscribe{
+        padding-top: 5.75rem;
+        padding-bottom: 0.25rem;
+    }
 }

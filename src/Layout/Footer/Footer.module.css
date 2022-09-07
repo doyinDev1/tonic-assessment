@@ -8,6 +8,12 @@
     grid-template-columns: repeat(14, 1fr);
 }
 
+.FooterLogo svg {
+    min-width: 26px;
+    min-height: 26px;
+
+}
+
 /* do responsivenwess and in end to 5 */
 .FooterMainChild:nth-child(1) {
     grid-column-start: 2;
@@ -57,7 +63,9 @@
     color: var(--color-grey);
     cursor: pointer;
 }
-
+.FooterHiring button {
+    margin-bottom: 15px;
+}
 
 .FooterMainChild h2 {
     font-family: 'Open Sans';
@@ -94,10 +102,60 @@
     align-items: center;
 }
 
+@media screen and (max-width: 1280px) {
+    .FooterMainChild:nth-child(1) {
+        grid-column-end: 5;
+
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .FooterMainChild:nth-child(1) {
+        grid-column-end: 6;
+
+    }
+
+    .FooterMainChild:nth-child(2) {
+        grid-column-start: 7;
+        grid-column-end: 8;
+    }
 
 
+    .FooterMainChild:nth-child(3) {
+        grid-column-start: 9;
+        grid-column-end: 10;
+    }
 
+    .FooterMainChild:nth-child(4) {
+        grid-column-start: 11;
+        grid-column-end: 12;
+    }
 
-@media screen and (max-width: 1860px) {
+}
 
+@media screen and (max-width: 540px) {
+    .FooterMain {
+        display: flex;
+        padding: 0 42px;
+        flex-direction: column-reverse;
+    }
+
+  
+}
+
+@media screen and (max-width: 414px) {
+    .FooterMain {
+        gap: 15px;
+    }
+
+    .Footer {
+        padding-top: 5.25rem;
+        padding-bottom: 1.3rem;
+    }
+
+    .FooterMainChild:nth-child(2) p,
+    .FooterMainChild:nth-child(3) p,
+    .FooterMainChild:nth-child(4) p {
+        padding: 0.2rem 0
+    }
 }

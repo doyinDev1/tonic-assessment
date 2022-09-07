@@ -62,6 +62,7 @@ const Team = () => {
                     <div className={classes.TeamMemberBottom}>
                         <div className={classes.TeamMemberBottomLeft}>
                             <img
+                            className={classes.TeamProfileBottom}
                                 src={dwight}
                                 alt='dwight'
                             />
@@ -76,6 +77,8 @@ const Team = () => {
                     <div className={classes.TeamMemberBottom}>
                         <div className={classes.TeamMemberBottomLeft}>
                             <img
+                            className={classes.TeamProfileBottom}
+                           
                                 src={pam}
                                 alt='pam'
                             />
@@ -92,12 +95,13 @@ const Team = () => {
                     <div className={classes.TeamMemberBottom}>
                         <div className={classes.TeamMemberBottomLeft}>
                             <img
+                            className={classes.TeamProfileBottom}
                                 src={pam}
-                                alt='pam'
+                                alt='jim'
                             />
                         </div>
                         <div className={classes.TeamMemberBottomRight}>
-                            <h1>Pam Beetsley</h1>
+                            <h1>Jim Halpert</h1>
                             <p>General Manager</p>
                         </div>
                     </div>
@@ -106,12 +110,13 @@ const Team = () => {
                     <div className={classes.TeamMemberBottom}>
                         <div className={classes.TeamMemberBottomLeft}>
                             <img
+                            className={classes.TeamProfileBottom}
                                 src={pam}
-                                alt='pam'
+                                alt='andy'
                             />
                         </div>
                         <div className={classes.TeamMemberBottomRight}>
-                            <h1>Pam Beetsley</h1>
+                            <h1>Andy Benard</h1>
                             <p>General Manager</p>
                         </div>
                     </div>

@@ -70,6 +70,90 @@
 
 .BlogPointsTop p {
     grid-column-start: 6;
-    grid-column-end: 8;
+    grid-column-end: 9;
 
+}
+
+
+@media screen and (max-width: 1280px) {
+    .BlogDetail h1 {
+        font-size: 42px;
+        line-height: 52px;
+    }
+
+    .BlogDetail p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .BlogTop h1 {
+        font-size: 40px;
+        line-height: 50px;
+        /* grid-column-start: 2; */
+        /* grid-column-end: 9; */
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .BlogDetail h1 {
+
+        font-size: 36px;
+        line-height: 38px;
+    }
+
+    .BlogTop h1 {
+        grid-column-start: 2;
+        grid-column-end: 9;
+    }
+
+    .BlogDetail p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+
+
+@media screen and (max-width: 820px) {
+
+    .BlogDetail h1 {
+
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .BlogDetail p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+}
+
+@media screen and (max-width: 414px) {
+    .BlogDetail p {
+        grid-column-start: 4;
+        grid-column-end: 7;
+        font-size: 8px;
+        line-height: 12px;
+    }
+
+    .BlogDetail h1 {
+        font-size: 22px;
+
+    }
+    .Blog{
+        grid-column-start: 6 !important;
+        grid-column-end: 9 !important;
+    }
+    .BlogTop h1{
+        padding-bottom: 0.8rem;
+
+    }
+    .BlogTop hr{
+        margin-bottom: 3.25rem;
+    }
+    .BlogPointsTop{
+        padding-bottom: 1rem;
+    }
 }

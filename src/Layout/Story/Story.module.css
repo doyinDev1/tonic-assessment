@@ -44,3 +44,66 @@
     color: var(--color-white);
     padding-bottom: 7.5rem;
 }
+
+
+@media screen and (max-width: 1024px) {
+
+    .StoryText h1 {
+        font-size: 42px;
+        line-height: 64px;
+    }
+
+    .StoryText h2 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .StoryText h2 {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .StoryText h1 {
+
+        font-size: 38px;
+        line-height: 50px;
+
+    }
+
+    .StoryText {
+
+        grid-column-start: 2;
+        grid-column-end: 9;
+    }
+}
+
+
+
+
+@media screen and (max-width: 414px) {
+    .StoryText h2 {
+        font-size: 12px;
+        line-height: 21px;
+        padding-bottom: 6.5rem;
+    }
+
+    .StoryText h1 {
+
+        font-size: 28px;
+        line-height: 40px;
+
+    }
+
+    .StoryText {
+
+        grid-column-start: 2;
+        grid-column-end: 9;
+    }
+
+    .StoryText p {
+        font-size: 15px;
+        line-height: 16px;
+    }
+}

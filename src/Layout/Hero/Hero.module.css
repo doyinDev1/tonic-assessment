@@ -5,6 +5,11 @@
     margin-bottom: 5.87rem;
 }
 
+.HeroLogo svg {
+    min-width: 26px;
+    min-height: 26px;
+
+}
 
 .HeroTop {
     display: grid;
@@ -22,6 +27,20 @@
 .HeroTopChild:nth-child(2) {
     grid-column-start: 10;
     grid-column-end: 14;
+}
+
+.HeroTopChildHamburger {
+    display: none;
+}
+
+.HeroTopChildHamburger {
+    grid-column-start: 11;
+}
+
+.NavOverlay {
+    display: flex !important;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .HeroLogo {
@@ -128,7 +147,6 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
-
     color: var(--color-darkBlue)
 }
 
@@ -225,7 +243,7 @@
 .HeroNav>li>button {
     display: 'flex';
     align-items: flex-start;
-    padding: 8px 40px;
+    padding: 8px 2.5rem;
     border: 2px solid var(--color-darkBlue);
     border-radius: 24px;
     background-color: var(--color-green);
@@ -266,6 +284,297 @@
 @media screen and (max-width: 1300px) {
     .HeroNavChild:nth-child(4) button {
 
-        padding: 8px 17px;
+        padding: 8px 15px;
+    }
+
+    .AboutAbout {
+        font-size: 42px;
+        line-height: 58px;
+    }
+
+    .AboutParagraph {
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    .HeroNavChild:nth-child(4) button {
+
+        padding: 8px 10px;
+    }
+
+
+}
+
+@media screen and (max-width: 1280px) {
+    .AboutNumbersTextChild:nth-child(2) {
+
+        grid-column-start: 2;
+        grid-column-end: 9;
+
+    }
+
+    .AboutNumbersText h1 {
+        font-size: 2.8rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .HeroNavChild:nth-child(4) button {
+
+        padding: 8px 10.3px;
+    }
+
+    .HeroTopChild:nth-child(2) {
+        grid-column-start: 9;
+        grid-column-end: 14;
+    }
+
+    .AboutAbout {
+        font-size: 26px;
+        line-height: 45px;
+    }
+
+    .AboutParagraph {
+        font-size: 10px;
+        line-height: 19px;
+    }
+
+    .AboutHeroTopChild:nth-child(2) {
+        grid-column-start: 9;
+        grid-column-end: 13;
+    }
+
+    .AboutText {
+        font-size: 1rem;
+
+    }
+
+    .AboutFeaturesText:nth-child(1) {
+        grid-column-start: 2;
+    }
+
+    .AboutFeaturesText:nth-child(2) {
+        grid-column-start: 6;
+
+    }
+
+
+    .AboutFeaturesText:nth-child(3) {
+        grid-column-start: 10;
+
+    }
+
+    .AboutNumbersText h1 {
+        font-size: 2.4rem;
+        line-height: 3.5rem;
+
+    }
+
+    .AboutFeaturesText h1 {
+        font-size: 5.4rem;
+        line-height: 2.5rem;
+    }
+
+    .AboutFeaturesText p {
+        font-size: 15px;
+        line-height: 15px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .HeroNavChild:nth-child(4) button {
+
+        padding: 8px 6px;
+    }
+
+
+    .AboutAbout {
+        font-size: 28px;
+        line-height: 42px;
+
+    }
+
+    .HeroTopChild:nth-child(2) {
+        grid-column-start: 8;
+        grid-column-end: 14;
+    }
+
+    .AboutParagraph {
+        font-size: 10px;
+        line-height: 18px;
+    }
+
+    .AboutNumbersText h1 {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    .AboutNumbers {
+        font-size: 15px;
+
+    }
+
+    .AboutFeaturesText:nth-child(1) {
+        grid-column-start: 2;
+    }
+
+    .AboutFeaturesText:nth-child(2) {
+        grid-column-start: 6;
+
+    }
+
+
+    .AboutFeaturesText:nth-child(3) {
+        grid-column-start: 10;
+
+    }
+
+    .AboutFeaturesText h1 {
+        font-size: 4.1rem;
+        line-height: 0.5rem;
+    }
+
+    .AboutFeaturesText p {
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .HeroNavChild:nth-child(4) button {
+
+        padding: 6px 6px;
+    }
+
+    .AboutNumbersText h1 {
+        font-size: 2rem;
+        line-height: 3.5rem;
+    }
+
+    /* .AboutNumbers{
+        font-size: 15px;
+
+    } */
+}
+
+@media screen and (max-width: 540px) {
+    .HeroTopChildHamburger {
+        display: unset;
+        grid-column-start: 12;
+
+    }
+
+    .AboutNumbers {
+        font-size: 12px;
+
+    }
+
+    .AboutText {
+        font-size: 0.8rem;
+    }
+
+    .AboutAbout {
+        font-size: 22px;
+        line-height: 33px;
+    }
+
+    .AboutParagraph {
+        font-size: 8px;
+        line-height: 14px;
+    }
+
+    .AboutFeaturesText h1 {
+        font-size: 3.2rem;
+        line-height: 0.2rem;
+    }
+
+    .AboutNumbersText h1 {
+        font-size: 1.9rem;
+        line-height: 2.5rem;
+    }
+
+    .AboutFeaturesText p {
+
+        font-size: 8px;
+        line-height: 2px;
+    }
+
+    .HeroTopChild:nth-child(2) {
+        display: none;
+    }
+
+    .HeroNav {
+        align-items: flex-start;
+        margin-left: -32px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .HeroTopChild:nth-child(1) {
+        grid-column-start: 3;
+        grid-column-end: 4;
+
+    }
+
+
+}
+
+@media screen and (max-width: 414px) {
+    .AboutText {
+        font-size: 0.6rem;
+    }
+
+    .HeroTopChildHamburger {
+        display: unset;
+        grid-column-start: 12;
+
+    }
+
+    .AboutNumbers {
+        font-size: 10px;
+
+    }
+
+
+    .AboutFeatures {
+        padding-bottom: 5.5rem;
+    }
+
+    .AboutAbout {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .AboutParagraph {
+        font-size: 6px;
+        line-height: 12px;
+    }
+
+    .AboutFeaturesText h1 {
+        font-size: 2.2rem;
+        line-height: 0rem;
+        padding-bottom: 1rem;
+    }
+
+    .AboutNumbersText h1 {
+        font-size: 1.5rem;
+        line-height: 2.1rem;
+    }
+
+    .AboutFeaturesText p {
+
+        font-size: 7px;
+        line-height: 0px;
+    }
+
+    .HeroTopChild:nth-child(2) {
+        display: none;
+    }
+
+    .HeroNav {
+        align-items: flex-start;
+        margin-left: -32px;
     }
 }

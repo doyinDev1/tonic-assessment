@@ -17,7 +17,6 @@ const Story = () => {
                         stock network effects. Learning curve network effects return
                         on investment
                         bootstrapping business-to-consumer. </h2>
-
                 </div>
             </div>
         </section>

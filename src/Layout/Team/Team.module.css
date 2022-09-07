@@ -113,3 +113,191 @@
 .TeamMemberBottomRight h1 {
     padding-bottom: 0.75rem;
 }
+
+
+
+@media screen and (max-width: 1024px) {
+    .TeamTop h1 {
+        font-size: 41px;
+        line-height: 60px;
+    }
+
+    .TeamMain p {
+        font-size: 16px;
+        line-height: 20px
+    }
+
+    .TeamTop h2 {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .TeamMembers:nth-child(1) {
+        grid-column-start: 4;
+        grid-column-end: 10;
+    }
+
+    .TeamMembers:nth-child(2) {
+        grid-column-start: 11;
+        grid-column-end: 17;
+    }
+
+    .TeamMembers:nth-child(3) {
+        grid-column-start: 19;
+        grid-column-end: 23;
+    }
+
+
+
+}
+
+@media screen and (max-width: 912px) {
+    /* .TeamTop{
+        grid-column-start: 2;
+        grid-column-end: 8;
+    } */
+
+    .TeamMembers:nth-child(1) {
+        grid-column-start: 4;
+        /* grid-column-end: 10; */
+    }
+
+    .TeamMembers:nth-child(2) {
+        grid-column-start: 11;
+        /* grid-column-end: 10; */
+    }
+
+    .TeamMembers:nth-child(3) {
+        grid-column-start: 18;
+        /* grid-column-end: 10; */
+    }
+
+    .TeamProfile img {
+        width: 200px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .TeamProfile img {
+        width: 175px !important;
+
+    }
+
+    .TeamMain h1 {
+        font-size: 25px;
+        line-height: 38px;
+    }
+
+    .TeamMain p {
+        font-size: 13px;
+        line-height: 12px;
+    }
+}
+
+
+@media screen and (max-width: 540px) {
+    .TeamProfile img {
+        width: 115px !important;
+
+    }
+
+    .TeamMain h1 {
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .TeamMain p {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .TeamProfileBottom {
+        width: 90px;
+
+    }
+
+    .TeamMemberBottomRight h1 {
+        padding-bottom: 0rem;
+    }
+
+    .TeamMemberBottom {
+        gap: 0.8rem;
+
+    }
+
+    .TeamMemberOtherContent:nth-child(1) {
+        grid-column-start: 5;
+        grid-column-end: 15;
+    }
+
+    .TeamMemberOtherContent:nth-child(2) {
+        grid-column-start: 15;
+        grid-column-end: 25;
+    }
+
+    .TeamTop h1 {
+        font-size: 23px !important;
+    }
+
+}
+
+@media screen and (max-width: 414px) {
+    .TeamTop {
+        grid-column-start: 2;
+        grid-column-end: 9;
+    }
+
+    .TeamTop h1 {
+        font-size: 20px !important;
+    }
+
+    .TeamProfile img {
+
+        width: 85px !important;
+    }
+
+    .TeamMain {
+        padding-bottom: 2.8rem;
+    }
+
+    .TeamMain h1 {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .TeamTop h2 {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .TeamMain p {
+        font-size: 7px;
+        line-height: 10px;
+    }
+
+    .TeamProfileBottom {
+        width: 90px;
+
+    }
+
+    .TeamMemberBottomRight h1 {
+        padding-bottom: 0rem;
+    }
+
+    .TeamMemberBottom {
+        gap: 0.8rem;
+
+    }
+
+    .TeamMemberOtherContent:nth-child(1) {
+        grid-column-start: 3;
+        grid-column-end: 15;
+    }
+
+    .TeamMemberOtherContent:nth-child(2) {
+        grid-column-start: 16;
+        grid-column-end: 25;
+    }
+
+}
